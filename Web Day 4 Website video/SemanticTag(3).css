@@ -1,0 +1,152 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;               /*-----------Space between any two line-----------*/
+    font: 16px/1.6 Arial, Helvetica, sans-serif;            /*----It will same like the bove three line------*/
+    padding: 0;
+    margin: 0;
+    background-color: beige;
+}
+.container{
+    width: 80%;
+    margin:auto;        /* -------Bringing everything to center------------*/
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: darkslategray;
+    color: white;
+    padding-top: 20px;
+    min-height: 40px;
+    border-bottom: 3px red solid;
+}
+header a{
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;          /*----remove the underline from letter-----*/
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px ;
+}
+header #FirstB{
+    float: left;
+    
+}
+header #FirstB h1{
+    margin: 0;
+    
+}
+header nav{
+    float: right;   
+}
+header .go, header .went a{                      /*--------This is for alpha in heading-------*/
+    color: rgb(243, 10, 10);
+    font-weight: bolder;
+}
+/*--- This is for the showcase area------*/
+#showcase{
+    height: 230px;
+    color: black solid;
+    background-image: url('../Image/Dark-Pic\ \(5\).jpg');
+}
+#showcase h1{
+    margin-top: 60px;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+#showcase p{
+    
+    font-size: 20px;
+}
+#newsletter{
+    color: white;
+    padding: 15px;
+    background-color: darkslategrey;
+}
+/*--- This is for the showcase area------*/
+
+
+
+
+/*--------Editing of Email and button -------*/
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 22px;
+}
+#newsletter input[type="email"]{
+    padding: 10px;
+    width: 250px;
+    height: 15px;
+}
+.button-1{
+    height: 38px;
+    background-color: rgb(243, 10, 10);
+    color: white;
+    border: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.Hi{
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: darkslategrey;
+
+}
+/*--------Editing of Email and button -------*/
+
+
+/*--------Editing boxes like html css and JavaScript Pic  ----------*/
+#boxes{
+    margin-top: 35px;
+}
+#boxes .box{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+} 
+/*--------This is for decreasing  size of image-----------*/
+#boxes .box img{
+    width: 40%;
+}
+article#Pay{
+    float: left;
+    width: 60%;
+    margin-top: 10px;
+}
+aside#Sidee{
+    float: right;
+    width: 30%;
+    margin-top: 30px;
+
+}
+/*---------servics editing---------*/
+ul#Services li{
+    list-style: none;
+    padding: 20px;
+    border: rgb(9, 132, 233)(0, 247, 255) solid;
+    margin-bottom: 5px;
+    background-color: rgb(165, 177, 172);
+}
+aside#Sidee .Good input, aside#Sidee .textarea{
+    padding: 10px;
+    width: 70%;
+}
+/*---------Footer editing---------*/
+footer{
+    padding-top: 20px;background-color:red;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
